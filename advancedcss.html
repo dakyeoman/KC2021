@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="kr">
+    <head>
+        <title>The Nico Times</title>
+        <style>
+            body { 
+                display:flex;
+                height: 100vh;
+                align-items: center;
+                justify-content: center;
+            }
+
+            div {
+                background-color: orange;
+                width: 200px;
+                height: 200px;
+                color:white;
+                flex-direction: column;
+            }
+            
+            @media screen and (min-width: 601px) and (max-width: 1200px) and (orientation: portrait;) 
+            {
+                div {
+                    background-color: wheat;
+                }
+            }
+            
+            span {
+                font-size: 50px;
+            }
+
+            @media screen and (orientation: landscape) {
+                span {
+                    display: none
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+        <span>Please flip your phone :(</span>
+    </body>
+</html>
+<!--img {
+                border: 5px solid black;
+                border-radius: 50%;
+            }
+            a {
+                color: white;
+                background-color: tomato;
+                text-decoration: none;
+                padding: 3px 5px;
+                border-radius: 5px;
+                font-size: 30px;
+                transition: background-color 10s ease-in-out, color 5s ease-in-out;
+                transition: all 5s ease-in-out
+            }
+            a:hover {
+                border-radius: 10px; 
+                color: tomato; 
+                background-color: wheat;
+            }-->

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <!--invisible-->
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.png"
+    />
+    <title>Home - my first website</title>
+    <link href="styles.css" rel="stylesheet" />
+    <style>
+      body {
+        height: 100vh;
+        margin: 20px;
+      }
+      div { 
+      width: 150px;
+      height: 150px;
+      position: relative;
+      }
+      span {
+        color: tomato;
+        background-color: thistle;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      p span {
+        color:whitesmoke;
+      }
+
+      p ~ span {
+        text-decoration: underline;
+      }
+      input {
+        border:1px solid wheat;
+      }
+      
+      input:required{
+        border-color: tomato;
+        
+      }
+
+      input[placeholder~="name"] {
+        background-color: pink;
+      }
+      button:hover{
+        background-color: violet;
+      }
+      a:visited{
+        color: yellowgreen;
+      }
+
+      a:hover{
+        color:teal;
+      }
+
+      a:focus{
+        color:turquoise;
+      }
+
+      form{
+        border:1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding:20px;
+      }
+
+      form:focus-within{
+        background-color: tomato;
+      }
+
+      form:hover input:focus{ 
+        background-color: seagreen;
+      }
+
+    </style>
+    <meta charset="utf=8" name="description" content="This is my website" />
+  
+  
+  
+  </head>
+  <body>
+    <a href="https://apple.com">go to apple</a>
+    <div>
+      <button>HELLO</button>
+      <input type="text"/>
+      <form>
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+        <input type="text" name="" id="" />
+        
+      </form>
+
+      
+      <p>
+        hi nice to meet you man. <span>inside of it</span>
+      </p>
+      <address>hi</address>
+      <span>HELLO!!!!!!!!!!</span>
+    </div>
+    <!--<span class="btn blue">hellow</span>
+    <span class="btn tomato">hellow</span>
+    <span class="btn blue">hellow</span>
+    <span class="btn tomato">hellow</span>
+    <p>inlines= text, link, images.</p>
+    <header>
+      <h1>Seoul night</h1>
+    </header>
+    <main>Gwanak-Gu Ssuckgogearo 125</main>
+    <nameoftthetag>content</nameoftthetag>
+    <strong>thing</strong>
+    label태그는 질문 추가 가능, id는 unique identifier:고유해야 함. -->
+
+    <!--<dialog open>
+      <h1>Hello!</h1>
+    </dialog>
+    <img src="reference.png" size="24x24" />-
+    <h1></h1>
+    <a href="http://google.com" target="_blank">Go to google.com</a>-->
+  </body>
+</html>
+
+<!--
+    <tagname attrname="attrvalue">something</tagname>
+    but stop try to memorize them.
+    container 을 작성할 경우 의미를 해석하기 위해 div 대신 semantic code: hgroup, header, main, navigation, footer 등 의미 가진 나누기 요소를 씁시다.
+-->
+<!-- 
+          justify-content는 주축(main axis)에 적용되고, align-items는 교차축(cross axis)에 적용됨
+        -->
+<!--    
+      display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+      div {
+        position: fixed; 
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        width: 300px;
+        font-size: 28px;
+        color: white;
+        height: 300px;
+        background-color: #257755;
+      }
+      #second {
+        background-color: thistle;
+      }
+
+      #third {
+        background-color: tomato;
+      }
+    
+      span:nth-child(3n+1){
+        background-color: orange;
+      }
+      span:nth-child(odd){
+        background-color: yellowgreen;
+      }
+    -->
