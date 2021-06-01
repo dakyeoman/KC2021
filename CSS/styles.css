@@ -7,11 +7,15 @@
 @import "screen/login.css";
 
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screen/friends.css";
+@import "components/user-components.css";
 
 body {
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Poiret One', cursive;
     height:1000vh;
+    color: #2e363e;
 }
 
 .welcome-header {
