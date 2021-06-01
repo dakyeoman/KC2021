@@ -6,9 +6,12 @@
 /*Screen*/
 @import "screen/login.css";
 
+@import "components/nav-bar.css";
+
 body {
     font-family: 'Advent Pro', sans-serif;
     font-family: 'Poiret One', cursive;
+    height:1000vh;
 }
 
 .welcome-header {
