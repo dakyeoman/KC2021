@@ -8,7 +8,9 @@
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/find.css";
-@import "screen/more.css";
+@import "screen/alt-screen-header.css";
+@import "screen/settings.css";
+@import "screen/chat.css";
 
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
