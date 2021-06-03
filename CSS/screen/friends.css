@@ -19,7 +19,7 @@
 
 .friends-screen__channel {
     margin-top: 25px;
-    border-top:1px solid rgba(0,0,0,0.2);
+    border-top: var(--main-border);
     padding-top: 15px;
 }
 
@@ -32,4 +32,20 @@
 
 .user-component__column:last-child {
     color: rgba(0,0,0,0.5)
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
+    margin-bottom: 25px;
+    
+}
+
+.open-chat__header span {
+    opacity: 0.6;
+}
+
+.open-post {
+    display: flex;
 }
